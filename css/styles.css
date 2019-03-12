@@ -1,0 +1,100 @@
+#map {
+ position: absolute;
+ height: 100%;
+ width: 100%;
+}
+
+#electiondistrictlegend {
+ position: absolute;
+ top: 530px;
+ right: 10px;
+ z-index: 1000;
+ padding: 10px;
+ font: 18px Arial;
+ background: rgba(255,255,255,0.8);
+ box-shadow: 0 0 15px rgba(0,0,0,0.2);
+ border-radius: 5px;
+}
+
+#mflegend {
+ position: absolute;
+ top: 550px;
+ right: 10px;
+ z-index: 1000;
+ padding: 10px;
+ font: 18px Arial;
+ background: rgba(255,255,255,0.8);
+ box-shadow: 0 0 15px rgba(0,0,0,0.2);
+ border-radius: 5px;
+}
+
+#statbutton {
+ position: absolute;
+ top: 130px;
+ right: 10px;
+ z-index: 1000;
+ padding: 5px;
+ font: 14px Arial;
+ font-weight: bold;
+ background: rgba(255,255,255,0.8);
+ box-shadow: 0 0 15px rgba(0,0,0,0.2);
+ border-radius: 5px;
+}
+
+.colorbox {
+ height: 10px;
+ width: 10px;
+ float: left;
+ margin: 3px 4px 0 0;
+ opacity: .6;
+}
+
+.mfcolorbox {
+ height: 10px;
+ width: 10px;
+ float: left;
+ margin: 3px 4px 0 0;
+ opacity: .6;
+}
+
+.edinfo {
+   padding: 5px;
+   margin: 5px;
+   font: 14px/16px Arial, Helvetica, sans-serif;
+   background: rgba(255,255,255,0.8);
+   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+   border-radius: 5px;
+}
+
+.edinfo h4 {
+   margin: 0 2px 5px 2px;
+   color: #777;
+}
+
+.femaleinfo {
+   padding: 5px;
+   margin: 5px;
+   font: 14px/16px Arial, Helvetica, sans-serif;
+   background: rgba(255,255,255,0.8);
+   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+   border-radius: 5px;
+}
+
+.femaleinfo h4 {
+   margin: 0 2px 5px 2px;
+   color: #777;
+}
+
+.maleinfo {
+   padding: 5px;
+   margin: 5px;
+   font: 14px/16px Arial, Helvetica, sans-serif;
+   background: rgba(255,255,255,0.8);
+   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+   border-radius: 5px;
+}
+
+.maleinfo h4 {
+   margin: 0 2px 5px 2px;
+   color: #777;
+}
